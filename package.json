@@ -1,0 +1,25 @@
+{
+  "name": "telegram-userbot",
+  "version": "1.0.0",
+  "description": "Минималистичный Telegram userbot с веб-интерфейсом",
+  "main": "src/app.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "node --watch src/app.js",
+    "start:railway": "node src/app.js"
+  },
+  "keywords": ["telegram", "userbot", "monitoring", "nodejs"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "telegraf": "^4.15.6",
+    "telegram": "^2.18.3",
+    "lowdb": "^6.0.1",
+    "dotenv": "^16.3.1",
+    "big-integer": "^1.6.52"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.4"
+  }
+}

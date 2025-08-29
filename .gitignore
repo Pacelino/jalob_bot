@@ -1,0 +1,37 @@
+# Зависимости
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Конфигурация и секреты
+config.env
+.env
+*.env
+
+# База данных и сессии
+db.json
+sessions/
+*.session
+
+# Логи
+logs/
+*.log
+
+# Временные файлы
+.tmp/
+temp/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build
+dist/
+build/
